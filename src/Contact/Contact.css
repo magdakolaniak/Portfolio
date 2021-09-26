@@ -34,3 +34,36 @@
   align-items: center;
   justify-content: center;
 }
+.single-contact {
+  width: 350px;
+  padding: 10px;
+  background-color: #e76f51ff;
+  margin-bottom: 20px;
+  color: whitesmoke;
+  text-align: center;
+}
+.contact--inside {
+  font-size: 20px;
+}
+.contact--icons {
+  font-size: 36px;
+  float: left;
+}
+@media (max-width: 585px) {
+  .single-contact {
+    width: 230px;
+    padding: 10px;
+    background-color: #e76f51ff;
+    margin-bottom: 20px;
+    color: whitesmoke;
+    text-align: center;
+  }
+  .contact--inside {
+    font-size: 16px;
+  }
+  .contact--icons {
+    padding-top: 5px;
+    font-size: 24px;
+    float: left;
+  }
+}

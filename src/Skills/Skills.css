@@ -47,6 +47,7 @@
 }
 .nav-link {
   display: block;
+
   padding: 10px;
   color: #303841;
   font-weight: 800;
@@ -98,4 +99,41 @@
 }
 .buttons-skills--1 {
   margin-right: 80px;
+}
+@media (max-width: 585px) {
+  .header--skills {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 800;
+    color: #279eb2;
+    text-decoration: underline;
+  }
+  #bottom-skills {
+    font-size: 16px;
+  }
+  #uncontrolled-tab-example > * {
+    font-size: 16px;
+  }
+  #list-indicators > li {
+    font-size: 16px;
+  }
+  .tick-icon--skills {
+    color: #279eb2;
+    font-size: 22px;
+  }
+  .tab--headers {
+    font-size: 16px;
+  }
+  .nav-link {
+    font-size: 16px;
+  }
+  .buttons-skills--1,
+  .buttons-skills--2 {
+    font-size: 16px;
+
+    width: 150px;
+  }
+  .skills--icon {
+    height: 40px;
+  }
 }

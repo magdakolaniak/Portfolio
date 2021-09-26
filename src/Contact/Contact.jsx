@@ -48,46 +48,19 @@ const Contact = () => {
                 >
                   Magdalena Kolaniak
                 </span>
-                <div
-                  style={{
-                    width: '350px',
-                    padding: '10px',
-                    backgroundColor: '#e76f51ff',
-                    marginBottom: '20px',
-                    color: 'whitesmoke',
-                    textAlign: 'center',
-                  }}
-                >
-                  <FaGoogle style={{ fontSize: '34px', float: 'left' }} />{' '}
-                  <span style={{ fontSize: '20px' }}>
+                <div className="single-contact">
+                  <FaGoogle className="contact--icons" />{' '}
+                  <span className="contact--inside">
                     magda.kolaniak@gmail.com
                   </span>
                 </div>
-                <div
-                  style={{
-                    width: '350px',
-                    padding: '10px',
-                    backgroundColor: '#e76f51ff',
-                    marginBottom: '20px',
-                    color: 'whitesmoke',
-                    textAlign: 'center',
-                  }}
-                >
-                  <AiFillGithub style={{ fontSize: '34px', float: 'left' }} />{' '}
-                  <span style={{ fontSize: '20px' }}>@magdakolaniak</span>
+                <div className="single-contact">
+                  <AiFillGithub className="contact--icons" />{' '}
+                  <span className="contact--inside">@magdakolaniak</span>
                 </div>
-                <div
-                  style={{
-                    width: '350px',
-                    padding: '10px',
-                    backgroundColor: '#e76f51ff',
-                    marginBottom: '20px',
-                    color: 'whitesmoke',
-                    textAlign: 'center',
-                  }}
-                >
-                  <AiFillLinkedin style={{ fontSize: '34px', float: 'left' }} />{' '}
-                  <span style={{ fontSize: '20px' }}>magda-kolaniak</span>
+                <div className="single-contact">
+                  <AiFillLinkedin className="contact--icons" />{' '}
+                  <span className="contact--inside">magda-kolaniak</span>
                 </div>
               </Col>
             </div>
