@@ -411,12 +411,16 @@ li {
   }
   .inside-page__text--me {
     color: #333;
-    font-size: 14px;
+    font-size: 16px;
     text-align: left;
+  }
+  .inside-page__text--skills {
+    color: #333;
+    font-size: 16px;
   }
   .inside-page__text--contact {
     color: #333;
-    font-size: 14px;
+    font-size: 16px;
   }
   .inside-page__heading {
     padding: 0.6rem;
@@ -450,7 +454,7 @@ li {
   }
   .inside-page__text--work {
     color: #333;
-    font-size: 14px;
+    font-size: 16px;
     font-style: italic;
     padding: 5px;
   }
