@@ -1,0 +1,28 @@
+.black {
+  background-color: aliceblue;
+}
+svg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+path {
+  stroke-dasharray: 100;
+  stroke-dashoffset: 100;
+  /* animation: draw__text 5s forwards;
+    transition: fill ease-in-out; */
+}
+
+@keyframes draw__text {
+  from {
+    fill: rgb(201, 201, 209);
+  }
+  to {
+    fill: black;
+    stroke-dashoffset: 0;
+  }
+}

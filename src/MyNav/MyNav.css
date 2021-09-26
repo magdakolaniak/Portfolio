@@ -1,0 +1,29 @@
+#my-nav {
+  background-color: #264653ff;
+  color: #d3d6db;
+  -webkit-box-shadow: 9px 6px 15px -2px #000000;
+  box-shadow: 9px 6px 15px -2px #000000;
+
+  position: sticky;
+  top: 0;
+  z-index: 300;
+}
+.links-navbar {
+  font-size: 20px;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.linkNav > a {
+  text-decoration: none !important;
+  color: #d3d6db !important;
+  padding: 10px;
+
+  transition: all ease-in-out;
+}
+
+.linkNav :hover {
+  box-shadow: 0 17px 50px 0 rgb(0 0 0 / 19%), 0 12px 15px 0 rgb(0 0 0 / 24%);
+  color: #d3d6db;
+  border-bottom: 2px solid black;
+}

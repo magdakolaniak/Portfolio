@@ -1,0 +1,22 @@
+.me-main {
+  /* position: absolute;
+  left: 0;
+  right: 0; */
+  /* display: flex; */
+
+  align-items: center;
+  justify-content: center;
+
+  font-size: 2rem;
+  background-color: #eef4f7;
+  border-radius: 20px;
+  box-shadow: 0 17px 50px 0 rgb(0 0 0 / 19%), 0 12px 15px 0 rgb(0 0 0 / 24%);
+}
+.photo-wrapper {
+  padding: 30px;
+}
+.column-photo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
