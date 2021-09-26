@@ -103,10 +103,6 @@
 @media (max-width: 585px) {
   .header--skills {
     font-size: 20px;
-    font-style: italic;
-    font-weight: 800;
-    color: #279eb2;
-    text-decoration: underline;
   }
   #bottom-skills {
     font-size: 16px;
