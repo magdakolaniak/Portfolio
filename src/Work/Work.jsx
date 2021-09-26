@@ -26,17 +26,18 @@ const Work = () => {
         <Row>
           <Col xs={12} md={4} className="column-left-work">
             <div className="work-wrapper">
-              <img src={code} alt="work" style={{ height: '80px' }} />
+              <img src={code} alt="work" className="work--icon" />
             </div>
           </Col>
           <Col xs={12} md={8}>
             <div className="header-projects">My projects</div>
             <div id="myProjectsDiv" style={{ marginTop: '15px' }}>
               <div>
-                <GiGrapes style={{ paddingBottom: '10px', fontSize: '46px' }} />
-                <span style={{ fontSize: '26px' }}> WhatWine?</span>
+                <GiGrapes className="grape-icon" />
+                <span className="what-wine"> WhatWine?</span>
               </div>
               <div
+                className="projects-description"
                 style={{
                   marginRight: '20px',
                   marginTop: '15px',

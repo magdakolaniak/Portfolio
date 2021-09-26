@@ -36,3 +36,9 @@
     display: block;
   }
 }
+@media (max-width: 585px) {
+  #header-nav {
+    font-size: 20px;
+    padding-left: 20px;
+  }
+}

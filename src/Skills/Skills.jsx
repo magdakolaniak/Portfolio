@@ -43,7 +43,7 @@ const Skills = () => {
         <Row>
           <Col xs={4} className="column-left-skills">
             <div className="skills-wrapper">
-              <img src={img} alt="skills" />
+              <img src={img} alt="skills" className="skills--icon" />
             </div>
           </Col>
           <Col xs={8}>
@@ -66,7 +66,11 @@ const Skills = () => {
             </div>
             <Row>
               <Tabs id="uncontrolled-tab-example" className="mb-3">
-                <Tab eventKey="soft-skills" title="Soft Skills">
+                <Tab
+                  eventKey="soft-skills"
+                  title="Soft Skills"
+                  className="tab--headers"
+                >
                   <ul id="list-indicators">
                     <li>
                       <TiTick className="tick-icon--skills" /> Passionate about
@@ -90,7 +94,11 @@ const Skills = () => {
                     </li>
                   </ul>
                 </Tab>
-                <Tab eventKey="languages" title="Languages">
+                <Tab
+                  eventKey="languages"
+                  title="Languages"
+                  className="tab--headers"
+                >
                   <ul id="list-indicators">
                     <li>
                       <TiTick className="tick-icon--skills" />{' '}
@@ -111,11 +119,13 @@ const Skills = () => {
                   title="Tech skills"
                   style={{ margin: '20px' }}
                 >
-                  Despite the ones I mentioned above (in which I feel the most
-                  confident and free), please see also everything I have leraned
-                  duirng my intensive 6-month yourney in Strive School. All
-                  mentioned technologies were put in practic straight away,
-                  which you can see visiting my GitHub Profile.
+                  <span className="tab--headers">
+                    Despite the ones I mentioned above (in which I feel the most
+                    confident and free), please see also everything I have
+                    leraned duirng my intensive 6-month yourney in Strive
+                    School. All mentioned technologies were put in practic
+                    straight away, which you can see visiting my GitHub Profile.
+                  </span>
                 </Tab>
               </Tabs>
               <Row
