@@ -157,11 +157,7 @@ const Flip = (props) => {
                   )}
                   {props.card === 'contact' ? (
                     <div>
-                      <img
-                        src={qr}
-                        alt="qr"
-                        style={{ width: '160px', marginTop: '60px' }}
-                      />
+                      <img className="qr-code" src={qr} alt="qr" />
                     </div>
                   ) : (
                     ''
