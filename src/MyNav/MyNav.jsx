@@ -1,6 +1,6 @@
 import './MyNav.css';
 import { Navbar, Nav, Container } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+
 import { useContext } from 'react';
 import { MainContext } from '../GlobalState/GlobalState';
 
@@ -34,7 +34,22 @@ const MyNav = () => {
     <>
       <Navbar collapseOnSelect expand="lg" id="my-nav" variant="dark">
         <Container>
-          <Navbar.Brand to="/"> Hi, Im Magda</Navbar.Brand>
+          <Navbar.Brand to="/" id="header-nav">
+            {' '}
+            Hi, I'm Magda
+            <img
+              src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif"
+              style={{ width: '30px', paddingBottom: '15px' }}
+              alt="hand"
+            />
+            <br></br>
+            Nice to meet you!
+            <img
+              src="https://raw.githubusercontent.com/ShahriarShafin/ShahriarShafin/main/Assets/handshake.gif"
+              style={{ width: '80px', paddingBottom: '10px' }}
+              alt="hand"
+            />
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="">

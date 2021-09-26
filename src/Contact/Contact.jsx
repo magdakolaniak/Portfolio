@@ -2,6 +2,9 @@ import { Container, Row, Col } from 'react-bootstrap';
 import './Contact.css';
 import { MainContext } from '../GlobalState/GlobalState';
 import { useContext, useEffect } from 'react';
+import mail from '../assets/mail-black.png';
+import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
+import { FaGoogle } from 'react-icons/fa';
 
 const Contact = () => {
   const { contact } = useContext(MainContext);
@@ -21,19 +24,72 @@ const Contact = () => {
       >
         <Row>
           <Col xs={4} className="column-left-contact">
-            <div className="contact-wrapper">Contact here</div>
+            <div className="contact-wrapper">
+              <img src={mail} alt="contact" />
+            </div>
           </Col>
-          <Col xs={8}>
-            <div>My contacts path...</div>
+          <Col xs={8} className="contact-col-right">
             <div id="bottomContact">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quod
-              numquam officiis, perspiciatis maiores, iste alias sint corrupti
-              asperiores adipisci tempora, culpa earum officia? Cumque
-              voluptates magnam ratione eos optio? Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Ex nulla beatae necessitatibus id
-              repudiandae, est ratione magnam. Quibusdam assumenda odio
-              voluptatem tenetur omnis tempora ipsa facilis voluptatibus sit,
-              libero architecto?
+              <Col xs={12} md={6} className="contact-col-right">
+                <div>
+                  <img
+                    src="https://res.cloudinary.com/dii3cculv/image/upload/v1631648362/me_tc5v5j.jpg"
+                    alt="me"
+                    style={{ height: '140px', borderRadius: '100px' }}
+                  />
+                </div>
+                <span
+                  style={{
+                    padding: '30px',
+                    fontSize: '24px',
+                    fontStyle: 'italic',
+                    fontWeight: 'bold',
+                  }}
+                >
+                  Magdalena Kolaniak
+                </span>
+                <div
+                  style={{
+                    width: '350px',
+                    padding: '10px',
+                    backgroundColor: '#e76f51ff',
+                    marginBottom: '20px',
+                    color: 'whitesmoke',
+                    textAlign: 'center',
+                  }}
+                >
+                  <FaGoogle style={{ fontSize: '34px', float: 'left' }} />{' '}
+                  <span style={{ fontSize: '20px' }}>
+                    magda.kolaniak@gmail.com
+                  </span>
+                </div>
+                <div
+                  style={{
+                    width: '350px',
+                    padding: '10px',
+                    backgroundColor: '#e76f51ff',
+                    marginBottom: '20px',
+                    color: 'whitesmoke',
+                    textAlign: 'center',
+                  }}
+                >
+                  <AiFillGithub style={{ fontSize: '34px', float: 'left' }} />{' '}
+                  <span style={{ fontSize: '20px' }}>@magdakolaniak</span>
+                </div>
+                <div
+                  style={{
+                    width: '350px',
+                    padding: '10px',
+                    backgroundColor: '#e76f51ff',
+                    marginBottom: '20px',
+                    color: 'whitesmoke',
+                    textAlign: 'center',
+                  }}
+                >
+                  <AiFillLinkedin style={{ fontSize: '34px', float: 'left' }} />{' '}
+                  <span style={{ fontSize: '20px' }}>magda-kolaniak</span>
+                </div>
+              </Col>
             </div>
           </Col>
         </Row>

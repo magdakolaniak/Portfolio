@@ -12,6 +12,8 @@ import bio from '../assets/biography.png';
 import skills from '../assets/pencil.png';
 import code from '../assets/code.png';
 import mail from '../assets/mail.png';
+import qr from '../assets/mycollection.png';
+import { BsCaretDownFill } from 'react-icons/bs';
 
 const Flip = (props) => {
   const { setMe, setWork, setSkills, setContact } = useContext(MainContext);
@@ -153,6 +155,17 @@ const Flip = (props) => {
                   ) : (
                     ''
                   )}
+                  {props.card === 'contact' ? (
+                    <div>
+                      <img
+                        src={qr}
+                        alt="qr"
+                        style={{ width: '160px', marginTop: '60px' }}
+                      />
+                    </div>
+                  ) : (
+                    ''
+                  )}
                 </div>
               </div>
             </div>
@@ -197,7 +210,18 @@ const Flip = (props) => {
                   ) : (
                     ''
                   )}
-                  {props.card === 'contact' ? `Do you wish to contact me?` : ''}
+                  {props.card === 'contact'
+                    ? `You can use this QR code to get all my Linktree connections, or simply get all in here`
+                    : ''}
+                  {props.card === 'contact' ? (
+                    <div>
+                      <BsCaretDownFill
+                        style={{ fontSize: '30px', color: '#e76f51ff' }}
+                      />
+                    </div>
+                  ) : (
+                    ''
+                  )}
                 </div>
                 <div
                   onClick={handleClick}
