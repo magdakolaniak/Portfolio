@@ -1,4 +1,3 @@
-import { Container, Row, Col } from 'react-bootstrap';
 import Flip from './Flip';
 import './Cards.css';
 

@@ -33,14 +33,13 @@ const Me = () => {
           <Col xs={12} md={8}>
             <div>My personal story...</div>
             <div id="bottom">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quod
-              numquam officiis, perspiciatis maiores, iste alias sint corrupti
-              asperiores adipisci tempora, culpa earum officia? Cumque
-              voluptates magnam ratione eos optio? Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Ex nulla beatae necessitatibus id
-              repudiandae, est ratione magnam. Quibusdam assumenda odio
-              voluptatem tenetur omnis tempora ipsa facilis voluptatibus sit,
-              libero architecto?
+              Former Sommelier with engineering background. Coding brought me
+              mostly an unloved need for continuous development and need to
+              prove myself of capability that I can do anything. And it’s a
+              magical world- you are a creator, which can also describe me
+              perfectly. I love to have an influence, and maybe one day I will
+              come up with changing-life solution, which is who I secretly want
+              to be.
             </div>
           </Col>
         </Row>
